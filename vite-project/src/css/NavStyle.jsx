@@ -8,18 +8,17 @@ export const NavStyle =styled.section `
     gap:1rem;
     width:100%;
     height:70px;
-    background-image:
-    linear-gradient(to left, aqua, blue);
+    
 }
-.navlink{
+.nav-item{
     font-size:1rem;
     color:#fff;
     text-transform:uppercase;
     text-decoration:none;
     padding:20px;
 }
-.navlink:hover{
-    color:yellow;
+.nav-item:hover{
+    color:#120a8f;
     font-size:1.2rem;
 }
 
