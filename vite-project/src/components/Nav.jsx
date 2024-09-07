@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Nav.css'; // Importa o CSS
+import './NavStyle.jsx'; // Importa o CSS
 
 const Nav = () => {
   return (
@@ -7,13 +7,13 @@ const Nav = () => {
       <section className="nav">
         <div className="logo">
                 <img src={LogoSports} id="logo" alt="logo"/>
-                 <p className="escrita-logo">FusionXport</p>
+                 <p className="escrita-logo">SportX</p>
         </div>
     <ul>
-          <li><Link to="/" className="Nav-item">Home</Link></li>
-          <li><Link to="/produto" className="Nav-item">Produtos</Link></li>
-          <li><Link to="/sobre" className="Nav-item">Sobre</Link></li>
-          <li><Link to="/contato" className="Nav-item">Contato</Link></li>
+          <li><Link to="/" className="nav-item">Home</Link></li>
+          <li><Link to="/produto" className="nav-item">Produtos</Link></li>
+          <li><Link to="/sobre" className="nav-item">Sobre</Link></li>
+          <li><Link to="/contato" className="nav-item">Contato</Link></li>
         </ul>
       </section>
     </>
